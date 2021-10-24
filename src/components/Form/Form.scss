@@ -1,0 +1,54 @@
+.post-form {
+    width: 100%;
+    color: #fff;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #242526;
+    padding: 20px;
+    margin: 2% 35%;
+}
+
+.title, .message{
+    background-color: #4E4F50;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: #fff;
+}
+.choose_file{
+    margin:auto;
+    button{
+        border: none;
+        padding: 10px;
+        background-color: #4E4F50;
+        border-radius: 10px;
+        color: #fff;
+    }
+    input{
+        display: none !important;
+    }
+}
+.submit-btn-cnt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 10px;
+    margin: 10px 0;
+    width: 100%;
+    button{
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+    }
+    button:first-child{
+        background-color: rgb(6, 197, 6);
+    }
+    button:nth-child(2){
+        background-color: rgb(255, 0, 0);
+    }
+}
+

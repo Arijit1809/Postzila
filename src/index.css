@@ -1,0 +1,12 @@
+
+body {
+    /* background-color: #f7f8fc; */
+    background-color: #18191A;
+}
+
+* {
+    font-family: 'Heebo', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
